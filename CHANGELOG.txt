@@ -1,3 +1,7 @@
+2020-03-10  unidecode 1.0.0
+
+	* Adjusted module for Kodi Matrix
+
 2014-05-11	unidecode 0.04.16
 
 	* Corrected ChangeLog.
@@ -6,7 +10,7 @@
 
 	* Fixed transliteration of Chinese character "Yi". (thanks to Yao Zuo)
 	* Transliterate Euro sign as "EUR". (thanks to Dave Smith)
-	
+
 2013-09-20	unidecode 0.04.14
 
 	* Revert transliteration for Latin characters with umlauts back
@@ -70,7 +74,7 @@
 
 	* Unit tests for Python 3 and simplified transliteration
 	  code (thanks to Thomas Kluyver)
-	* Support for mathematical versions of Latin and Greek alphabets 
+	* Support for mathematical versions of Latin and Greek alphabets
 	  and digits.
 
 2010-01-12	unidecode 0.04.3
@@ -80,7 +84,7 @@
 
 2009-08-27	unidecode 0.04.2
 
-	* Corrected replacements for Japanese Kana characters 
+	* Corrected replacements for Japanese Kana characters
 	  (thanks to Michel Albert)
 
 2009-01-25	unidecode 0.04.1

@@ -26,12 +26,6 @@ def unidecode(string):
     "Bei Jing "
     """
 
-    if version_info[0] < 3 and not isinstance(string, unicode):
-        warnings.warn(  "Argument %r is not an unicode object. "
-                        "Passing an encoded string will likely have "
-                        "unexpected results." % (type(string),),
-			RuntimeWarning, 2)
-
     retval = []
 
     for char in string:
@@ -40,7 +34,7 @@ def unidecode(string):
         if codepoint < 0x80: # Basic ASCII
             retval.append(str(char))
             continue
-        
+
         if codepoint > 0xeffff:
             continue # Characters in Private Use Area and above are ignored
 
